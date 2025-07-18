@@ -1,0 +1,142 @@
+/* Center the entire page content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff4444;
+  background-color: rgba(255, 68, 68, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 {
+  color: #23a579;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Responsive container */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Style for input groups */
+.input-section {
+  background-color: #0a5a40;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: white;
+}
+
+.input-group {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.input-group p {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group p {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* Input field styles */
+.input-group input {
+  width: 100%;
+  max-width: 300px;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .input-group input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th {
+  color: #23a579;
+  padding: 15px;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+@media (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  th, td {
+    min-width: 150px;
+  }
+}
+
+/* Body styles */
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #1a1a1a, #000000);
+  color: white;
+}
