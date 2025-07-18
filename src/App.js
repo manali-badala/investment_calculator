@@ -3,7 +3,7 @@ import './styles.css';
 import Header from './components/Header';
 import Results from './components/Results';
 import UserInput from './components/UserInput';
-import React, { useState } from "react";
+import { useState } from "react";
 
 function App() {
 
